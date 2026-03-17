@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Gaegu:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Space Mono", monospace;
+  --font-hand: "Gaegu", cursive;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FDFDFD] text-[#1A1A1A] font-mono;
+  }
+}
+
+@utility hand-border {
+  border: 2px solid #1A1A1A;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px #1A1A1A;
+}
+
+@utility hand-button {
+  @apply px-4 py-2 hand-border bg-white hover:bg-black hover:text-white transition-colors duration-200 cursor-pointer;
+}
+
+@utility nav-link {
+  @apply px-4 py-2 hover:underline decoration-2 underline-offset-4;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@utility animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
