@@ -102,7 +102,7 @@ function Home() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="grid md:grid-cols-2 gap-12 items-center md:-mt-15 ml-16"
+      className="grid md:grid-cols-2 gap-12 items-center md:-mt-15 md:ml-16"
     >
       {/* Left Column: Text */}
       <div className="space-y-6">
