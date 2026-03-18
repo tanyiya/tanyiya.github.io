@@ -136,7 +136,7 @@ function Home() {
             <span>Based in Penang, Malaysia</span>
           </div>
           <a
-            href="Resume.pdf"
+            href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 hand-button px-4 py-2"
@@ -152,7 +152,7 @@ function Home() {
         <div className="relative w-64 h-80 md:w-80 md:h-96">
           <div className="absolute inset-0 flex items-center justify-center p-4">
             <img
-              src="../animated picture.png"
+              src="/picture.png"
               alt="Picture of me"
               className="w-full h-full object-contain filter grayscale contrast-125"
               referrerPolicy="no-referrer"
