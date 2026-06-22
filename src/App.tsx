@@ -154,7 +154,7 @@ function Home() {
             <img
               src="/picture.png"
               alt="Picture of me"
-              className="w-full h-full object-contain filter grayscale contrast-125"
+              className="w-full h-full"
               referrerPolicy="no-referrer"
             />
           </div>
